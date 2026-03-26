@@ -1,0 +1,6 @@
+to add to every html file:
+after <head> (to validate html files) --> <meta charset="UTF-8"> 
+
+after global stylesheet --> <link rel="stylesheet" href=print.css" media="print">
+	- copy global stylesheet, rename as 'print'
+	- 

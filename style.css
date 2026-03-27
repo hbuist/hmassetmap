@@ -1,0 +1,91 @@
+/* CSS file */
+
+/* HEADER */
+
+div#wrapper {width: 990px;
+	     margin-left: auto;
+	     margin-right: auto;
+	     margin-top: 10px;
+	     margin-bottom: 10px;
+	     background-color: #A894A1;
+	     background-image: url(images/gradient.png);
+	     background-repeat: repeat-y;
+	     background-position: left top;
+	     background-attachment: scroll;
+	     border: 2px solid black;}
+
+header {height: 288px;
+	margin-bottom: 0px;}
+header h1, header p {text-indent: -9999999999px;}
+header {background: black url(images/hmmapbanneralt.png) no-repeat;}  
+
+table#menu {border: none;
+	margin: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 97%;
+	border-collapse: collapse;}
+tr#menu {border-bottom: none;}
+
+
+table {border: 1px solid black;
+	margin: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 97%;
+	border-collapse: collapse;}
+
+caption {display: none;}
+
+thead	{color: white;
+	 background-color: #cccccc;
+	 text-align: center;}
+tbody	{font-size: 90%;
+	 font-family: georgia, serif;}
+tr {border-bottom: 1px solid black;}
+td {padding: 10px;}
+/* td {border: 1px solid red;} TESTING TABLE SHAPE */
+.cell_right_align {text-align: right;}
+
+
+
+/* NAV */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+/* MAP from google maps demo https://www.geeksforgeeks.org/html/add-google-maps-marker-website/ */
+
+
+

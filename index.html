@@ -2,7 +2,7 @@
  <html lang="en">
   <head> <title> Hintonburg-Mechanicsville Asset Map </title>  
    <link rel="stylesheet" href="style.css" media="screen">
-   <body>  
+   
     <div id="wrapper">  
      <header> </header>
 
@@ -33,7 +33,7 @@
     </script>
    
 <body>
-    <div id="map" style="width: 100%; height: 400px;"></div>
+    <div id="map" style="width: 100%; height: 800px;"></div>
 
  <script>
        
@@ -43,19 +43,33 @@
        
 	 // Create an array of markers
         var markers = [
+// Great Canadian Theatre Company
             new google.maps.Marker({position: 
-		{lat: 45.401696635980606,
-		lng: -75.72622213047354 }, map: map, url: "categories.html#social" }),
+		{lat: 45.3999757776664,
+		lng: -75.73168567 }, map: map, url: "index.html#bluesky" }),
+// Hintonburg Community Centre
             new google.maps.Marker({position: 
-		{lat: 45.40378057746859,
-                 lng: -75.72443950757564 }, map: map, url: "https://www.google.ca/" }),
+		{lat: 45.403603395046,
+                 lng: -75.7243668587359 }, map: map, url: "categories.html#arts" }),
+// Keith Brown Community Building
 	    new google.maps.Marker({position: 
-		{lat: 45.408252275432915,
-                 lng: -75.72890359272752 }, map: map, url: "https://www.google.ca/" }),
+		{lat: 45.40827712,
+                 lng: -75.7289229148092 }, map: map, url: "categories.html#arts" }),
+// The Origin Arts & Community Centre
             new google.maps.Marker({ position: 
-		{lat: 45.40805579851303,
-                 lng: -75.72247013552438 }, map: map, url: "https://www.google.ca/" })	
-			];
+        	{lat: 45.4011469293794	,
+                 lng: -75.7255869534449 }, map: map, url: "categories.html#arts" }),	
+// Tom Brown Arena
+            new google.maps.Marker({ position: 
+		{lat: 45.4080777653999,
+                 lng: -75.72247013552438 }, map: map, url: "categories.html#arts" }),
+// Urban Art Collective
+            new google.maps.Marker({ position: 
+		{lat: 45.406244818223,
+                 lng: -75.7207822342973 }, map: map, url: "categories.html#arts" }),
+
+
+		];
 
 
        // Iterate over the array of markers
@@ -63,7 +77,7 @@
             // Bind a click event to the current marker
             markers[i].addListener('click', function () {
 		alert ('information')
-                window.location.href = this.url ;
+                window.location.href = this.url  ;
             });
         }
     </script>
@@ -72,7 +86,50 @@
 <!-- end of Geeks for Geeks coding -->
 
 
+<section>
+<h3 id="directory">Directory</h3>
+<table>
+<tbody>  
+	
 
+<tr> 
+	<td id="abbeyfield"><a href="https://abbeyfield.ca/ottawa/" title="Opens in new tab" target="_blank"> Abbeyfield House Ottawa  </a></td> 
+	<td> 425 Parkdale Ave, <br> Ottawa, ON K1Y 1H3 </td> 
+	<td class="cell_right_align"> 613-729-4817 </td> 
+	<td> <a href="mailto:Info@AbbeyfieldOttawa.ca"> Info@AbbeyfieldOttawa.ca </td>	
+	</tr>
+
+
+<tr> 
+	<td id="bluesky"><a href="https://www.bluskydental.ca/" title="Opens in new tab" target="_blank">BluSky Dental - Holland Cross  </a></td> 
+	<td> 1620 Scott St #20, <br> Ottawa, ON K1Y 4S7 </td> 
+	<td class="cell_right_align"> 613-728-1511 </td> 
+	<td> <a href="mailto:hollandcrossreception@blusky.dental"> hollandcrossreception@blusky.dental </td>	
+</tr>
+
+
+<tr> 
+	<td id="connaught"><a href="https://connaughtps.ocdsb.ca/" title="Opens in new tab" target="_blank"> Connaught Public School   </a></td> 
+	<td> 1149 Gladstone Avenue, <br> Ottawa, ON K1Y 3H7 </td> 
+	<td class="cell_right_align"> 613-728-4671 </td> 
+	<td> <a href="mailto:connaughtps@ocdsb.ca"> connaughtps@ocdsb.ca </td>	
+</tr> 
+
+<tr> 
+	<td id="devonshire"><a href="https://devonshireps.ocdsb.ca/" title="Opens in new tab" target="_blank">  Devonshire Community Public School  </td> 
+	<td> 100 Breezehill Ave N, <br> Ottawa, ON K1Y 2H5 </td> 
+	<td class="cell_right_align"> 613-729-3169 </td> 
+	<td> <a href="mailto:devonshirecommunityps@ocdsb.ca"> devonshirecommunityps@ocdsb.ca </td>	
+</tr>
+
+
+
+
+
+
+</tbody>
+</table>
+</section> 
 
 
 

@@ -24,25 +24,28 @@ table#menu {border: none;
 	padding-left: 10px;
 	padding-right: 10px;
 	width: 97%;
+	font-size: 90%;
 	border-collapse: collapse;}
 tr#menu {border-bottom: none;}
 
-
-table {border: 1px solid black;
+/* table {border: 1px solid black;} */
+table {border: none; 
 	margin: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 97%;
-	border-collapse: collapse;}
+/*	width: 97%;	UNDECIDED */
+	border-collapse: collapse;
+	font-size: 95%;
+	font-family: verdana, arial, sans-serif}
 
 caption {display: none;}
 
 thead	{color: white;
 	 background-color: #cccccc;
 	 text-align: center;}
-tbody	{font-size: 90%;
-	 font-family: georgia, serif;}
-tr {border-bottom: 1px solid black;}
+tbody	{font-size: 80%;
+	 font-family: verdana, arial, sans-serif}
+tr {border-bottom: none;} /* tr {border-bottom: 1px solid black;} */
 td {padding: 10px;}
 /* td {border: 1px solid red;} TESTING TABLE SHAPE */
 .cell_right_align {text-align: right;}
@@ -85,7 +88,61 @@ ul li a:hover {
 
 
 
-/* MAP from google maps demo https://www.geeksforgeeks.org/html/add-google-maps-marker-website/ */
+/* Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recursive)
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL */
+
+@font-face { font-family: 'Recursive_VF_1.078';
+	     src: url(fonts/recursive-sans/Recursive_VF_1.078.ttf);
+	     font-weight: normal;
+	     font-style: normal; }
+
+body { font-family: "Recursive_VF_1.078", verdana, arial, sans-serif;
+       font-size: 18px; 
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;}
+
+a {color: #47064d; 
+   text-decoration: none;
+   border-bottom: none;
+   padding-bottom: 1px;}
+a:visited {color: #55698d;}
+a:hover, a:focus, a:active {background-color: #cfcece;
+			    color: #86649B;}
+
+footer	{clear: both;
+	 padding: 10px;
+	 font-size: 75%;
+	 height: 1%;
+	 background-color: #f5f1f6;
+	 color: #464646;
+	 border-top: 2px solid #464646;}
+
+footer p {margin-bottom: 0;}
+
+footer a:link {color: black;}
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+						 border: none;}
+
+
+/* Top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #55698d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px; }
+#myBtn:hover {  background-color: #555; }
 
 
 

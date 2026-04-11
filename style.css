@@ -1,5 +1,26 @@
 /* CSS file */
 
+/* This license can also be found at this permalink: https://www.fontsquirrel.com/license/rubik
+Copyright (c) 2015 by Hubert & Fischer. All rights reserved.
+This Font Software is licensed under the SIL Open Font License, Version 1.1. */
+
+@font-face { font-family: 'Rubik-Regular';
+	     src: url(fonts/rubik/Rubik-Regular.ttf);
+	     font-weight: normal;
+	     font-style: normal; }
+body { font-family: verdana, arial, sans-serif;
+       font-size: 18px; 
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;
+	text-align: justify;
+	  margin: 0;
+  padding: 0;
+background: white url(images/marble.png);}
+
+
+
+
 /* HEADER */
 
 div#wrapper {width: 990px;
@@ -7,8 +28,8 @@ div#wrapper {width: 990px;
 	     margin-right: auto;
 	     margin-top: 10px;
 	     margin-bottom: 10px;
-	     background-color: #A894A1;
-	     background-image: url(images/gradient.png);
+	     background-color: #d9cad6;
+/*	     background-image: url(images/gradient.png); */
 	     background-repeat: repeat-y;
 	     background-position: left top;
 	     background-attachment: scroll;
@@ -26,17 +47,21 @@ table#menu {border: none;
 	width: 97%;
 	font-size: 90%;
 	border-collapse: collapse;}
-tr#menu {border-bottom: none;}
+tr#menu {border-bottom: none;
+	text-align: left;
+	background-color: #c4adc0;}
 
 /* table {border: 1px solid black;} */
 table {border: none; 
 	margin: 15px;
 	padding-left: 10px;
-	padding-right: 10px;
-/*	width: 97%;	UNDECIDED */
+	padding-right: 0px;
+	width: 97%;	
 	border-collapse: collapse;
 	font-size: 95%;
-	font-family: verdana, arial, sans-serif}
+	font-family: verdana, arial, sans-serif;
+	text-align: left;}
+
 
 caption {display: none;}
 
@@ -47,20 +72,21 @@ tbody	{font-size: 80%;
 	 font-family: verdana, arial, sans-serif}
 tr {border-bottom: none;} /* tr {border-bottom: 1px solid black;} */
 td {padding: 10px;}
-/* td {border: 1px solid red;} TESTING TABLE SHAPE */
-.cell_right_align {text-align: right;}
+/* td {border: 1px solid red;} TESTING BORDERS */
+.cell_right_align {text-align: right;
+		   white-space: nowrap;}
 
 
 
-/* NAV */
-body {
-  margin: 0;
-  padding: 0;
-}
 
-h2, h3, p {
-  margin: 10px;
-}
+h2, h3 { font-family: "Rubik-Regular", verdana, arial, sans-serif;
+	  margin: 15px;}
+p {	font-family: verdana, arial, sans-serif;
+	font-size: 90%;
+  	margin: 10px;}
+p#alphabet {	text-size: 100%;
+		font-weight: bold;
+		text-align: center;}
 
 ul {
   list-style-type: none;
@@ -88,27 +114,13 @@ ul li a:hover {
 
 
 
-/* Copyright 2020 The Recursive Project Authors (https://github.com/arrowtype/recursive)
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL */
 
-@font-face { font-family: 'Recursive_VF_1.078';
-	     src: url(fonts/recursive-sans/Recursive_VF_1.078.ttf);
-	     font-weight: normal;
-	     font-style: normal; }
-
-body { font-family: "Recursive_VF_1.078", verdana, arial, sans-serif;
-       font-size: 18px; 
-       line-height: 1.5;
-       margin: 0;
-       padding: 0;}
-
-a {color: #47064d; 
+a {color: #6d426e; 
    text-decoration: none;
    border-bottom: none;
    padding-bottom: 1px;}
 a:visited {color: #55698d;}
-a:hover, a:focus, a:active {background-color: #cfcece;
+a:hover, a:focus, a:active {background-color: #afadad;
 			    color: #86649B;}
 
 footer	{clear: both;

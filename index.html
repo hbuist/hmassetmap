@@ -1,6 +1,25 @@
 <!DOCTYPE html>
  <html lang="en">
-  <head> <title> Hintonburg-Mechanicsville Asset Map </title>  
+  <head> <meta charset="UTF-8"> 
+<title> Hintonburg-Mechanicsville Asset Map </title>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="asset map, community, neighbourhood, hintonburg, mechanicsville, ottawa, ontario">
+<meta name="dc.title" content="Hintonburg-Mechanicsville Asset Map">
+<meta name="dc.creator" content="Heather Buist">
+<meta name="dc.subject" content="neighbourhood asset map">
+<meta name="dc.description" content="This is a website mapping community resources in Hintonburg-Mechnicsville, Ottawa, ON.">
+<meta name="dc.publisher" content="Heather Buist">
+<meta name="dc.contributer" content="Mechnicsville Community Association">
+<meta name="dc.date" content="20260416">
+<meta name="dc.type" content="text">
+<meta name="dc.format" content="HTML">
+<meta name="dc.identifier" content="INSERT WEBSITE ADDRESS">
+<meta name="dc.source" content="Google Maps, location websites">
+<meta name="dc.language" content="en">
+<meta name="dc.relation" content="Google Maps, location websites">
+<meta name="dc.coverage" content="Hintonburg-Mechnicsville, Ottawa, ON">
+<meta name="dc.rights" content="Copyright Heather Buist">
+
    <link rel="stylesheet" href="style.css" media="screen">
    
     <div id="wrapper">  
@@ -22,7 +41,6 @@
 
 <h2>Hintonburg-Mechanicsville Asset Map</h2>
 
-<p>Some text on the website.</p>
 
 
 
@@ -38,135 +56,135 @@
  <script>
        
         var map = new google
-            .maps.Map(document.getElementById('map'), {zoom: 15,
+            .maps.Map(document.getElementById('map'), {zoom: 15.5,
                 center: { lat: 45.40507280619526, lng: -75.72430572161323 }});
        
 	 // Create an array of markers
         var markers = [
 // Abbeyfield House Ottawa
-            new google.maps.Marker({ position: 
+            new google.maps.Marker({ id: "abbeyfieldmap", position: 
 		{lat: 45.4000624682951,
-                 lng: -75.7284372058637 }, map: map, url: "index.html#abbeyfield" }),
+                 lng: -75.7284372058637 }, map: map, url: "index.html#abbeyfield", title: "Abbeyfield House Ottawa \n425 Parkdale Ave \nOttawa, ON K1Y 1H3"  }),
 // BluSky Dental - Holland Cross
             new google.maps.Marker({ position: 
 		{lat: 45.40370616119,
-                 lng: -75.7327168622418 }, map: map, url: "index.html#blusky" }),
+                 lng: -75.7327168622418 }, map: map, url: "index.html#blusky", title: "BluSky Dental - Holland Cross \n1620 Scott St #20 \nOttawa, ON K1Y 4S7" }),
 // Connaught Public School
             new google.maps.Marker({ position: 
 		{lat: 45.400341433422,
-                 lng: -75.7261192755294 }, map: map, url: "index.html#connaught" }),
+                 lng: -75.7261192755294 }, map: map, url: "index.html#connaught", title: "Connaught Public School \n1149 Gladstone Ave \nOttawa, ON K1Y 3H7" }),
 // Devonshire Community Public School
             new google.maps.Marker({ position: 
 		{lat: 45.4055844895384,
-                 lng: -75.7188262842513 }, map: map, url: "index.html#devonshire" }),
+                 lng: -75.7188262842513 }, map: map, url: "index.html#devonshire", title: "Devonshire Community Public School \n100 Breezehill Ave N \nOttawa, ON K1Y 2H5" }),
 // École élémentaire catholique Saint-François-d'Assise
             new google.maps.Marker({ position: 
 		{lat: 45.4024062429651,
-                 lng: -75.7241199256291 }, map: map, url: "index.html#ecolefrancois" }),
+                 lng: -75.7241199256291 }, map: map, url: "index.html#ecolefrancois", title: "École élémentaire catholique Saint-François-d'Assise \n5 Melrose Ave \nOttawa, ON K1Y 1T8" }),
 // Great Canadian Theatre Company
             new google.maps.Marker({position: 
 		{lat: 45.3999757776664,
-		lng: -75.73168567 }, map: map, url: "index.html#gctc" }),
+		lng: -75.73168567 }, map: map, url: "index.html#gctc", title: "Great Canadian Theatre Company \n1233 Wellington St. W \nOttawa, ON K1Y 0G7" }),
 // Hintonburg Community Centre
             new google.maps.Marker({position: 
 		{lat: 45.403603395046,
-                 lng: -75.7243668587359 }, map: map, url: "index.html#hcc" }),
+                 lng: -75.7243668587359 }, map: map, url: "index.html#hcc", title: "Hintonburg Community Centre \n1064 Wellington St. W \nOttawa ON K1Y 2Y3" }),
 // Keith Brown Community Building
 	    new google.maps.Marker({position: 
 		{lat: 45.40827712,
-                 lng: -75.7289229148092 }, map: map, url: "index.html#keithbrown" }),
+                 lng: -75.7289229148092 }, map: map, url: "index.html#keithbrown", title: "Keith Brown Community Building \n51 Stonehurst Ave \nOttawa ON K1Y 4R7" }),
 // The Origin Arts & Community Centre
             new google.maps.Marker({ position: 
         	{lat: 45.4075227674241	,
-                 lng: -75.7305280035028 }, map: map, url: "index.html#originart" }),	
+                 lng: -75.7305280035028 }, map: map, url: "index.html#originart", title: "The Origin Arts & Community Centre \n57 Lyndale Ave \nOttawa, ON K1Y 2M5" }),	
 // Ottawa Community Immigrant Services Organization
             new google.maps.Marker({ position: 
 		{lat: 45.4066177623393,
-                 lng: -75.7221781915249 }, map: map, url: "index.html#ocisc" }),
+                 lng: -75.7221781915249 }, map: map, url: "index.html#ocisc", title: "Ottawa Community Immigrant Services Organization \n959 Wellington St. W \nOttawa, ON K1Y 2X5" }),
 // Ottawa Public Library, Rosemount Branch
             new google.maps.Marker({ position: 
 		{lat: 45.4016868383449,
-                 lng: -75.7262217131442 }, map: map, url: "index.html#oplrosemount" }),
+                 lng: -75.7262217131442 }, map: map, url: "index.html#oplrosemount", title: "Ottawa Public Library, Rosemount Branch \n18 Rosemount Ave \nOttawa, ON K1Y 1P4" }),
 // Ottawa Trans Library
             new google.maps.Marker({ position: 
 		{lat: 45.4058861422509,
-                 lng: -75.7220440851336 }, map: map, url: "index.html#otl" }),
+                 lng: -75.7220440851336 }, map: map, url: "index.html#otl", title: "Ottawa Trans Library \n1104 Somerset St W \nOttawa, ON K1Y 3C8" }),
 // Ottawa West Community Support
             new google.maps.Marker({ position: 
 		{lat: 45.4021273844962,
-                 lng: -75.7269721441502 }, map: map, url: "index.html#owcs" }),
+                 lng: -75.7269721441502 }, map: map, url: "index.html#owcs", title: "Ottawa West Community Support \n1137 Wellington St. W \nOttawa, ON K1Y 2Y8" }),
 // Parkdale Baptist Church
             new google.maps.Marker({ position: 
 		{lat: 45.3985265538831,
-                 lng: -75.7279773315937 }, map: map, url: "index.html#parkdalebaptist" }),
+                 lng: -75.7279773315937 }, map: map, url: "index.html#parkdalebaptist", title: "Parkdale Baptist Church \n474 Parkdale Ave \nOttawa, ON K1Y 1H1" }),
 // Parkdale Dental Centre
             new google.maps.Marker({ position: 
 		{lat: 45.4014312626096,
-                 lng: -75.7291559483482 }, map: map, url: "index.html#parkdaledental" }),
+                 lng: -75.7291559483482 }, map: map, url: "index.html#parkdaledental", title: "Parkdale Dental Centre \n383 Parkdale Ave, Suite 409 \nOttawa, ON K1Y 4R4 " }),
 // Parkdale Food Centre - Community Kitchen
             new google.maps.Marker({ position: 
 		{lat: 45.4013958943399,
-                 lng: -75.7262582547306 }, map: map, url: "index.html#parkdalefoodkitchen" }),
+                 lng: -75.7262582547306 }, map: map, url: "index.html#parkdalefoodkitchen", title: "Parkdale Food Centre - Community Kitchen \n30 Rosemount Ave #2 \nOttawa, ON K1Y 1P4" }),
 // Parkdale Food Centre - Mino’Weesini Grocery Program
             new google.maps.Marker({ position: 
 		{lat: 45.4020601066011,
-                 lng: -75.7308836187342 }, map: map, url: "index.html#parkdalefoodgrocery" }),
+                 lng: -75.7308836187342 }, map: map, url: "index.html#parkdalefoodgrocery", title: "Parkdale Food Centre - Mino’Weesini Grocery Program \n5 Hamilton Ave N \nOttawa, ON K1Y 1B4" }),
 // Parkdale United Church 
             new google.maps.Marker({ position: 
 		{lat: 45.3997416401969,
-                 lng: -75.728079344659 }, map: map, url: "index.html#parkdaleunited" }),
+                 lng: -75.728079344659 }, map: map, url: "index.html#parkdaleunited", title: "Parkdale United Church \n429 Parkdale Ave \nOttawa, ON K1Y 1H3"  }),
 // Protection of the Holy Virgin Memorial Church
             new google.maps.Marker({ position: 
 		{lat: 45.407150454516,
-                 lng: -75.7281471894508 }, map: map, url: "index.html#memorialchurch" }),
+                 lng: -75.7281471894508 }, map: map, url: "index.html#memorialchurch", title: "Protection of the Holy Virgin Memorial Church \n99 Stonehurst Ave \nOttawa, ON K1Y 1T2" }),
 // Queen of the Most Holy Rosary
             new google.maps.Marker({ position: 
 		{lat: 45.4018634487906,
-                 lng: -75.7280139876505 }, map: map, url: "index.html#holyrosary" }),
+                 lng: -75.7280139876505 }, map: map, url: "index.html#holyrosary", title: "Queen of the Most Holy Rosary \n20 Grant St \nOttawa, ON, K1Y 2W9" }),
 // Restore Medical Clinics
             new google.maps.Marker({ position: 
 		{lat: 45.4001268651733,
-                 lng: -75.7315197345025 }, map: map, url: "index.html#restore" }),
+                 lng: -75.7315197345025 }, map: map, url: "index.html#restore", title: "Restore Medical Clinics \n1221 Wellington St. W \nOttawa, ON K1Y 0G7" }),
 // Rosemount Family Health Organization
             new google.maps.Marker({ position: 
 		{lat: 45.4014241390776,
-                 lng: -75.7291120470019 }, map: map, url: "index.html#familyhealth" }),
+                 lng: -75.7291120470019 }, map: map, url: "index.html#familyhealth", title: "Rosemount Family Health Organization \n383 Parkdale Ave Suite 309 \nOttawa, ON K1Y 4R4"  }),
 // Salvation Army Grace Manor
             new google.maps.Marker({ position: 
 		{lat: 45.400893021097,
-                 lng: -75.7275583348979 }, map: map, url: "index.html#gracemanor" }),
+                 lng: -75.7275583348979 }, map: map, url: "index.html#gracemanor", title: "Salvation Army Grace Manor \n1156 Wellington St. W \nOttawa, ON K1Y 2Z3" }),
 // School Sainte-Marie Mère De Dieu
             new google.maps.Marker({ position: 
 		{lat: 45.4037748648194,
-                 lng: -75.7235751694934 }, map: map, url: "index.html#saintemarie" }),
+                 lng: -75.7235751694934 }, map: map, url: "index.html#saintemarie", title: "School Sainte-Marie Mère De Dieu \n20 Fairmont Ave \nOttawa, ON K1Y 2K2" }),
 // Somerset West Community Health Centre - Rosemount Branch
             new google.maps.Marker({ position: 
 		{lat: 45.4013958943399,
-                 lng: -75.7262582547306 }, map: map, url: "index.html#swchc" }),
+                 lng: -75.7262582547306 }, map: map, url: "index.html#swchc", title: "Somerset West Community Health Centre - Rosemount Branch \n30 Rosemount Ave \nOttawa, ON K1Y 1P4" }),
 // St. Francois d'Assise & Holy Korean Martyrs Parish 
             new google.maps.Marker({ position: 
 		{lat: 45.403788813855,
-                 lng: -75.7235734447541 }, map: map, url: "index.html#francoischurch" }),
+                 lng: -75.7235734447541 }, map: map, url: "index.html#francoischurch", title: "St. Francois d'Assise & Holy Korean Martyrs Parish \n20 Fairmont Ave \nOttawa, ON K1Y 2K2"}),
 // St. Leopold Mandic Croatian Church
             new google.maps.Marker({ position: 
 		{lat: 45.4073401092957,
-                 lng: -75.7311019962218 }, map: map, url: "index.html#leopold" }),
+                 lng: -75.7311019962218 }, map: map, url: "index.html#leopold", title: "St. Leopold Mandic Croatian Church \n170 Hinchey Ave \nOttawa, ON K1Y 1L4" }),
 // Tom Brown Arena
             new google.maps.Marker({ position: 
 		{lat: 45.4080777653999,
-                 lng: -75.72247013552438 }, map: map, url: "index.html#tombrown" }),
+                 lng: -75.72247013552438 }, map: map, url: "index.html#tombrown", title: "Tom Brown Arena \n141 Bayview Station Rd \nOttawa, ON K1Y 4T1"  }),
 // Urban Art Collective
             new google.maps.Marker({ position: 
 		{lat: 45.406244818223,
-                 lng: -75.7207822342973 }, map: map, url: "index.html#urbanart" }),
+                 lng: -75.7207822342973 }, map: map, url: "index.html#urbanart", title: "Urban Art Collective \n50 Bayswater Ave \nOttawa, ON K1Y 2E9" }),
 // Wellington West BIA
             new google.maps.Marker({ position: 
 		{lat: 45.3987405832706,
-                 lng: -75.7356046399345 }, map: map, url: "index.html#wwbia" }),
+                 lng: -75.7356046399345 }, map: map, url: "index.html#wwbia", title: "Wellington West BIA \n1292 Wellington St. W #101 \nOttawa, ON K1Y 3A9" }),
 // Wellington West Retirement Community
             new google.maps.Marker({ position: 
 		{lat: 45.4007012204039,
-                 lng: -75.7286237750238 }, map: map, url: "index.html#wellingtonretirement" }),
+                 lng: -75.7286237750238 }, map: map, url: "index.html#wellingtonretirement", title: "Wellington West Retirement Community \n1166 Wellington St. W \nOttawa, ON K1Y 4H1" }),
 
 
 		];
@@ -176,8 +194,7 @@
         for (var i = 0; i < markers.length; i++) {
             // Bind a click event to the current marker
             markers[i].addListener('click', function () {
-		alert ('information')
-                window.location.href = this.url  ;
+		window.location.href = this.url ;
             });
         }
     </script>
@@ -195,7 +212,8 @@
 
 <section>
 <h3 id="directory">Directory</h3>
-<p> 	<a href="index.html#a"> A </a> |
+<p id="alphabet"> 
+	<a href="index.html#a"> A </a> |
 	<a href="index.html#b"> B </a> |
 	<a href="index.html#c"> C </a> |
 	<a href="index.html#d"> D </a> |
@@ -223,7 +241,7 @@
 	 Z </a>
 </p>
 
-<table>
+<table id="directory">
 <tbody>  
 	
 
@@ -245,7 +263,7 @@
 
 <tr id="c"> 
 	<td id="connaught"><a href="https://connaughtps.ocdsb.ca/" title="Opens in new tab" target="_blank"> Connaught Public School   </a></td> 
-	<td> 1149 Gladstone Avenue, <br> Ottawa, ON K1Y 3H7 </td> 
+	<td> 1149 Gladstone Ave, <br> Ottawa, ON K1Y 3H7 </td> 
 	<td class="cell_right_align"> 613-728-4671 </td> 
 	<td> <a href="mailto:connaughtps@ocdsb.ca"> connaughtps@ocdsb.ca </td>	
 </tr> 
@@ -280,7 +298,7 @@
 
 <tr id="k"> 
 	<td id="keithbrown"><a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/keith-brown-community-building" title="Opens in new tab" target="_blank"> Keith Brown Community Building  </a></td> 
-	<td> 51 Stonehurst Avenue<br> Ottawa ON K1Y 4R7 </td> 
+	<td> 51 Stonehurst Ave<br> Ottawa ON K1Y 4R7 </td> 
 	<td class="cell_right_align"> 613-580-9836 </td> 
 	<td> <a href="mailto:hintonburg@ottawa.ca"> hintonburg@ottawa.ca </td>	
 </tr>
@@ -329,7 +347,7 @@
 
 	<tr> 
 	<td id="parkdaledental"><a href="https://parkdale-dental.com/" title="Opens in new tab" target="_blank">Parkdale Dental Centre  </a></td> 
-	<td> 383 Parkdale Ave Suite 409, <br> Ottawa, ON K1Y 4R4 </td> 
+	<td> 383 Parkdale Ave, Suite 409 <br> Ottawa, ON K1Y 4R4 </td> 
 	<td class="cell_right_align"> 613-728-4991 </td> 
 	<td> <a href="mailto:reception@parkdale-dental.com"> reception@parkdale-dental.com </td>	
 	</tr>
@@ -364,7 +382,7 @@
 
 	<tr> 
 	<td id="holyrosary"><a href="https://www.ottawaholyrosary.com/" title="Opens in new tab" target="_blank"> Queen of the Most Holy Rosary Catholic Church  </a></td> 
-	<td> 20 Grant St., <br> Ottawa ON </td> 
+	<td> 20 Grant St., <br> Ottawa ON, K1Y 2W9 </td> 
 	<td class="cell_right_align"> 613-728-4935 </td> 
 	<td> <a href="mailto:ottawaholyrosary@gmail.com"> ottawaholyrosary@gmail.com </td>	
 	</tr>
@@ -378,7 +396,7 @@
 
 	<tr> 
 	<td id="familyhealth"><a href="https://rosemountclinic.ca/" title="Opens in new tab" target="_blank"> Rosemount Family Health Organization  </a></td> 
-	<td> 383 Parkdale Ave Suite 309, <br> Ottawa, ON K1Y 4R4 </td> 
+	<td> 383 Parkdale Ave, Suite 309 <br> Ottawa, ON K1Y 4R4 </td> 
 	<td class="cell_right_align"> 613-724-5852 </td> 
 	<td> <a href="mailto:reception@rosemountclinic.ca"> reception@rosemountclinic.ca </td>	
 	</tr>
@@ -450,7 +468,7 @@
 
 
 </tbody>
-</table>
+</table> 
 </section> 
 
  <footer> <a href="index.html"> Back to top </a>

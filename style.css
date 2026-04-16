@@ -87,8 +87,7 @@ h2, h3 { font-family: "Rubik-Regular", verdana, arial, sans-serif;
 p {	font-family: verdana, arial, sans-serif;
 	font-size: 90%;
   	margin: 10px;}
-p#alphabet {	text-size: 100%;
-		font-weight: bold;
+p#alphabet {	font-weight: bold;
 		text-align: center;}
 
 ul {	list-style-type: none;

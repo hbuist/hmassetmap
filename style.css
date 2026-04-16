@@ -16,9 +16,7 @@ body { font-family: verdana, arial, sans-serif;
 	text-align: justify;
 	  margin: 0;
   padding: 0;
-background: white url(images/marble.png);}
-
-
+background: white url(images/sidewalkport.png);}
 
 
 /* HEADER */
@@ -40,6 +38,8 @@ header {height: 288px;
 header h1, header p {text-indent: -9999999999px;}
 header {background: black url(images/hmmapbanneralt.png) no-repeat;}  
 
+/* CATEGORIES MENU */
+
 table#menu {border: none;
 	margin: 15px;
 	padding-left: 10px;
@@ -48,10 +48,13 @@ table#menu {border: none;
 	font-size: 90%;
 	border-collapse: collapse;}
 tr#menu {border-bottom: none;
-	text-align: left;
-	background-color: #c4adc0;}
+	text-align: center;
+	background-color: #c8b2c4;}
+td#menu {box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+	 border-radius: 11px;}
 
-/* table {border: 1px solid black;} */
+/* TABLE */
+
 table {border: none; 
 	margin: 15px;
 	padding-left: 10px;
@@ -61,7 +64,6 @@ table {border: none;
 	font-size: 95%;
 	font-family: verdana, arial, sans-serif;
 	text-align: left;}
-
 
 caption {display: none;}
 
@@ -77,7 +79,7 @@ td {padding: 10px;}
 		   white-space: nowrap;}
 
 
-
+/* BODY */
 
 h2, h3 { font-family: "Rubik-Regular", verdana, arial, sans-serif;
 	  margin: 15px;}
@@ -88,41 +90,31 @@ p#alphabet {	text-size: 100%;
 		font-weight: bold;
 		text-align: center;}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
+ul {	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333333;}
 
-ul li {
-  float: right;
-}
+ul li {float: right;}
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+ul li a {display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;}
 
-ul li a:hover {
-  background-color: #111111;
-}
+ul li a:hover {background-color: #111111;}
 
+a {	color: #6d426e; 
+   	text-decoration: none;
+   	border-bottom: none;
+   	padding-bottom: 1px;}
+	a:visited {color: #55698d;}
+	a:hover, a:focus, a:active {background-color: #afadad;
+	color: #86649B;}
 
-
-
-a {color: #6d426e; 
-   text-decoration: none;
-   border-bottom: none;
-   padding-bottom: 1px;}
-a:visited {color: #55698d;}
-a:hover, a:focus, a:active {background-color: #afadad;
-			    color: #86649B;}
-
+/* FOOTER */
 footer	{clear: both;
 	 padding: 10px;
 	 font-size: 75%;
@@ -138,7 +130,6 @@ footer a:link {color: black;}
 footer a:hover, footer a:focus, footer a:active {background-color: transparent;
 						 border: none;}
 
-
 /* Top button */
 #myBtn {
   display: none;
@@ -149,10 +140,10 @@ footer a:hover, footer a:focus, footer a:active {background-color: transparent;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #55698d;
-  color: white;
+  background-color: #d9cad6;
+  color: black;
   cursor: pointer;
-  padding: 15px;
+  padding: 25px;
   border-radius: 4px; }
 #myBtn:hover {  background-color: #555; }
 

@@ -41,17 +41,17 @@ header {background: black url(images/hmmapbanner.png) no-repeat;}
 
 /* CATEGORIES MENU */
 
-table#menu {border: none;
+table#tablemenu {border: none;
 	margin: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
 	width: 97%;
 	font-size: 90%;
 	border-collapse: collapse;}
-tr#menu {border-bottom: none;
+.trmenu {border-bottom: none;
 	text-align: center;
 	background-color: #baafb9;}
-td#menu {box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+.tdmenu {box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
 	 border-radius: 11px;}
 
 /* TABLE */

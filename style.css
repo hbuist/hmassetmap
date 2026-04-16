@@ -26,7 +26,7 @@ div#wrapper {width: 990px;
 	     margin-right: auto;
 	     margin-top: 10px;
 	     margin-bottom: 10px;
-	     background-color: #d9cad6;
+	     background-color: #ccc4cc;
 /*	     background-image: url(images/gradient.png); */
 	     background-repeat: repeat-y;
 	     background-position: left top;
@@ -49,7 +49,7 @@ table#menu {border: none;
 	border-collapse: collapse;}
 tr#menu {border-bottom: none;
 	text-align: center;
-	background-color: #c8b2c4;}
+	background-color: #baafb9;}
 td#menu {box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
 	 border-radius: 11px;}
 
@@ -140,7 +140,7 @@ footer a:hover, footer a:focus, footer a:active {background-color: transparent;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #d9cad6;
+  background-color: #c7bec6;
   color: black;
   cursor: pointer;
   padding: 25px;
